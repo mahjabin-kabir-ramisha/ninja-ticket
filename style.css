@@ -7,13 +7,12 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background:url("images/bg.png");
+    background:url("images/bus.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
 }
-
 nav{
     height: 50px;
     width: 100%;
@@ -33,9 +32,10 @@ nav ul li a{
     color: #fff;
     padding: 10px;
     text-transform: uppercase;
+    margin-left: 30px;
 }
 nav ul li a:hover, a.active{
-    background-color: #3352F2;
+    background-color: #52AF3A;
     border-radius: 5px;
 }
 .main-content{
@@ -44,33 +44,32 @@ nav ul li a:hover, a.active{
     gap: 70px;
     align-items: center;
 }
+.booking-content{
+    color: #fff;
+    width: 100%;
+    float: left;
+    margin-left: 50px;
+}
+.booking-content h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
 .booking-form{
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 25px;
+    padding: 10px;
     border-radius: 5px;
-    float: left;
+    float: right;
+    width: 80%;
+    margin: 50px 0px 0px 80px;
 }
 .booking-form h3{
     margin: 10px 0px;
 }
 .booking-form  .input-group{
     margin: 10px 0;
-}
-.f-class{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.inp-width{
-    min-width: 300px;
-}
-.plus-minus-btn{
-    color: #3352F2;
-    font-size: 30px;
-    padding: 2px;
-    margin-top: 10px;
-    word-spacing: 20px;
 }
 .booking-form  .calculations{
     margin: 10px 0;
@@ -94,14 +93,32 @@ nav ul li a:hover, a.active{
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
-.booking-content{
-    color: #fff;
-    width: 80%;
+.f-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.booking-content h1{
-    font-size: 70px;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 400;
-    margin-bottom: 25px;
+.inp-width{
+    min-width: 100px;
+}
+.plus-minus-btn{
+    color: #3352F2;
+    font-size: 30px;
+    padding: 2px;
+    margin: 10px 10px 0px 0px;
+    word-spacing: 20px;
+}
+.btn-style{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color:  #52AF3A;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
 }
