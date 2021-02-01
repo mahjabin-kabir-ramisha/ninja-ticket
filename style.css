@@ -121,4 +121,5 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
